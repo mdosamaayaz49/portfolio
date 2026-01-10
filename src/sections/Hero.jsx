@@ -97,7 +97,16 @@ export const Hero = () => {
               <Button size="lg">
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton>
+              <AnimatedBorderButton
+                onClick={() => {
+                  const link = document.createElement("a");
+                  link.href = "/cv.pdf";
+                  link.download = "Osama-Ayaz-CV.pdf";
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }}
+              >
                 <Download className="w-5 h-5" />
                 Download CV
               </AnimatedBorderButton>
