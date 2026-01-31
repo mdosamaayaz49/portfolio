@@ -58,6 +58,7 @@ export const Hero = () => {
               }s ease-in-out infinite`,
               animationDelay: `${Math.random() * 5}s`,
             }}
+            key={i}
           />
         ))}
       </div>
