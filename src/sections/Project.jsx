@@ -16,7 +16,15 @@ const projects = [
     description:
       "A responsive movie discovery application that allows users to browse, search, and explore movies with detailed information.",
     image: "/projects/movie-explorer.png",
-    tags: ["React", "Typescript", "Zustand", "React Query", "TMDB API", "Tailwind", "React Router"],
+    tags: [
+      "React",
+      "Typescript",
+      "Zustand",
+      "React Query",
+      "TMDB API",
+      "Tailwind",
+      "React Router",
+    ],
     link: "https://movie-explorer-coral-alpha.vercel.app/",
     github: "https://github.com/mdosamaayaz49/movie-explorer",
   },

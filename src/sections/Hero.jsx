@@ -87,8 +87,8 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Osama Ayaz — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
+                Hi, I'm Osama Ayaz — a software engineer specializing in React,
+                Next.js, and TypeScript. I build scalable, performant web
                 applications that users love.
               </p>
             </div>
@@ -118,7 +118,10 @@ export const Hero = () => {
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
                 { icon: Github, href: "https://github.com/mdosamaayaz49" },
-                { icon: Linkedin, href: "https://www.linkedin.com/in/osamaayaz/" },
+                {
+                  icon: Linkedin,
+                  href: "https://www.linkedin.com/in/osamaayaz/",
+                },
               ].map((social, idx) => (
                 <a
                   key={idx}
