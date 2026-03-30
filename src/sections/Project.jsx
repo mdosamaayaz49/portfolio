@@ -28,6 +28,22 @@ const projects = [
     link: "https://movie-explorer-coral-alpha.vercel.app/",
     github: "https://github.com/mdosamaayaz49/movie-explorer",
   },
+  {
+    title: "RoomifyAI",
+    description:
+      "Full-stack AI room visualization platform built with React, TypeScript, and Puter. Design and compare room interiors instantly.",
+    image: "/projects/roomify.png",
+    tags: [
+      "React",
+      "Typescript",
+      "Puter",
+      "Tailwind",
+      "OpenAI API",
+      "React Router",
+    ],
+    link: "https://roomify-ai-eta.vercel.app/",
+    github: "https://github.com/mdosamaayaz49/RoomifyAI",
+  },
 ];
 
 export const Projects = () => {
